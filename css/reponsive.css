@@ -1,0 +1,139 @@
+@media screen and (max-width:600px){
+ .top{
+    width: 100%;
+    height: 50px;
+ }
+ .brand{
+    width: 70px;
+ }
+ .search-div img{
+    width: 30px;
+    height: 30px;
+ }
+ .div-shoping{
+    align-items: center;
+    
+ }
+
+ .div-shoping img{
+    width: 30px;
+    height:30px;
+}
+.div-shoping h1{
+    font-size: 20px;
+    margin: 5px 0;
+}
+/*end top  */
+.navbar{
+width: 100%;
+}
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-item{
+    width: 90px;
+    padding-right: 0px;
+    border: 2px solid gray;
+    margin: 0 10px;
+}
+.nav-link{
+    font-size: 13px;
+}
+/* body */
+.body img{
+    width: 140px;
+    height:140px;
+}
+.body-text{
+    margin: 0 30px ;
+    width: 140px;
+    font-size: 10px;   
+    color: white;
+}
+.body-btn{
+    font-size: 10px;
+    margin-top: 0px;
+}
+/* under body  */
+.under-body{
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.shoes{
+    width: 250px;
+    font-size: 7px;
+    border: 1px solid gray;
+}
+.shoes img {
+    width: 60%;
+}
+.short{
+    margin: 0 30px;
+    width: 30% !important;
+}
+.context h1{
+    margin-left:20px ;
+    font-size: 20px;
+}
+/* cards */
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 90%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid gray;
+    border-bottom: 4px solid rgb(6, 143, 122);
+    border-radius: 5px;
+    width: 220px;
+    height: 180px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 40px;    
+}
+.card-text{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+.btn{
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+.end{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;    
+    height: 150px;
+}
+.end-text{
+    margin-top: 20px;
+    font-size: 5px;
+}
+.end-text h1{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.info-of-site{
+    font-size: 10px;
+    width: 100%;
+    bottom: 150px;
+    padding: 5px 0;
+    
+}
+
+
+
+
+
+}
